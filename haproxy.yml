@@ -75,6 +75,6 @@
 
   - name: "Use below URL to access the hosted webpage"
     debug:
-          msg: "http://{{ ansible_facts['enp0s8']['ipv4']['address'] }}:{{ proxy_port }}"
+          msg: "http://{{ ansible_facts['default_ipv4']['address'] }}:{{ proxy_port }}"
 
 
