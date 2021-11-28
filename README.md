@@ -2,7 +2,7 @@
 
 I've created an Ansible playbook to Configure Reverse Proxy i.e. Haproxy and update it's configuration file automatically on each time new Managed node (Configured With Apache Webserver) join the inventory. Ansible is a great tool for Configuration Management & Automation. This Task was given by Sir Vimal Daga in the Arth training recently.
 
-## ARTH Task 12.2
+## Description
 🔰 Write an Ansible PlayBook that does the following operations in the managed nodes:\
 🔹 Configurs HAProxy one Managed Node\
 🔹 Configures Apache Webserver (HTTPD) on other Managed Nodes\
